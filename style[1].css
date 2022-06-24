@@ -1,0 +1,79 @@
+/* css variables */
+:root{
+
+  color:white;
+  padding:10px;
+  border:10px;
+}
+.about{
+    background-image:url("https://wonder-day.com/wp-content/uploads/2020/10/wonder-day-among-us-wallpapers-1.jpg");
+}
+
+.register{
+  background-image:url("https://media.istockphoto.com/photos/button-on-computer-keyboard-picture-id1146311489?k=20&m=1146311489&s=612x612&w=0&h=o-Q7wAa53Drsx-WkMoRs3RK_CPkrL5ZFlCU7Tsq6Y8Q=")
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+input[type=submit] {
+  background-color: white;
+  color: solid white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-color:black ;
+}
+
+input[type=submit]:hover {
+  background-color: #1f529b;
+  
+}
+.login{
+  background-image:url("https://thumbs.dreamstime.com/z/login-protection-padlock-wallpaper-creative-glowing-digital-business-interface-blue-concept-d-rendering-161065354.jpg")
+}
+.contact{
+  background-image:url("https://img.freepik.com/free-photo/contact-us-customer-support-hotline-people-connect-call-customer-support_36325-2045.jpg")
+}
+header{
+  text-align:center;
+  padding:10px;
+  border:10px;
+}
+
+}
+nav{
+   background-color:black;
+  color:white;
+  text-align:right; 
+}
+ul{
+  list-style-type:square;
+}
+.main{
+    width: 20%;
+  padding: 12px;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.main2{
+    width: 50%;
+  padding: 12px;
+  border: 10px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  text-align:left;
+}
+.black{
+  color:white;
+  text-align:left;
+  font:italic;
+}
